@@ -1,5 +1,5 @@
 import User from "./user.riot";
-import { expect } from "chai";
+import { expect, describe, it } from "vitest";
 import { component } from "riot";
 
 describe("User Unit Test", () => {

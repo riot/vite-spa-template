@@ -1,5 +1,5 @@
 import MyComponent from "./my-component.riot";
-import { expect } from "chai";
+import { expect, describe, it } from "vitest";
 import { component } from "riot";
 
 describe("My Component Unit Test", () => {

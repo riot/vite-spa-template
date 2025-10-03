@@ -1,5 +1,5 @@
 import Sidebar from "./sidebar.riot";
-import { expect } from "chai";
+import { expect, describe, it } from "vitest";
 import { component } from "riot";
 
 describe("Sidebar Unit Test", () => {
